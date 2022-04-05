@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hiporank"
+version = "0.1.0"
+description = ""
+authors = ["Kaito Sugimoto <hellorusk1998@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+gensim = "^4.1.2"
+pyrouge = "^0.1.2"
+py-rouge = "^1.1"
+torch = "^1.11.0"
+transformers = "^4.17.0"
+sentence-transformers = "^2.2.0"
+summa = "^1.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
